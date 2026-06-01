@@ -1,0 +1,34 @@
+# ข้ามไฟล์โมเดลขนาดใหญ่
+*.h5
+*.npy
+*.pt
+*.onnx
+
+# ข้ามโฟลเดอร์ข้อมูลดิบ EEG (S001 - S109)
+S[0-9][0-9][0-9]/
+S*/
+
+# ข้ามไฟล์รายการข้อมูลและ checksum ของ PhysioNet
+RECORDS
+ANNOTATORS
+SHA256SUMS.txt
+wfdbcal
+
+# ข้ามโฟลเดอร์ระบบและการตั้งค่า
+data/
+__pycache__/
+.ipynb_checkpoints/
+.vscode/
+.idea/
+
+# ข้ามไฟล์ขยะระบบปฏิบัติการ
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# ข้ามไฟล์กราฟและผลลัพธ์สำรอง หรือภาพเก่า (ถ้าต้องการส่งเฉพาะ Code)
+64_channel_sharbrough-old.png
+training_graph_*.png
+final_confusion_matrix_*.png
+eegnet_graph.png
+

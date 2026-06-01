@@ -1,0 +1,11 @@
+tensorflow>=2.11
+mne
+numpy
+scipy
+scikit-learn
+matplotlib
+seaborn
+onnx
+onnxruntime
+tqdm
+torchinfo
